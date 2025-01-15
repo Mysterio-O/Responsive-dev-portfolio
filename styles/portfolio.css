@@ -225,3 +225,30 @@ footer textarea {
     height: 180px;
     font-size: 16px;
 }
+
+
+
+/* responsive styles are here */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skill-container, .resume-container {
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 50px;
+    }
+    .resume-column {
+        margin: 0 20px 0 20px;
+        text-align: center;
+    }
+    .footer {
+        padding: 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
